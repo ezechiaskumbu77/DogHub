@@ -1,0 +1,11 @@
+{
+  "name": "doghub",
+  "version": "1.0.0",
+  "description": "This is a static landing page presenting a platform where one's can find dogs, and dog's good built with the power of Bootstrap and HTML",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezechis Kumbu Kumbu",
+  "license": "ISC"
+}
