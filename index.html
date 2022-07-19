@@ -4,8 +4,27 @@
 <head>
   <meta charset="utf-8">
   <title>DogHub</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="dist/css/style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;1,100&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+  <!-- Bootrap Local -->
+  <link rel="stylesheet" href="dist/css/styles.css">
+  <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dist/bootstrap/css/bootstrap-theme.min.css">
+  <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+  <script src="dist/bootstrap/js/npm.js"></script>
+  <script src="dist/bootstrap/js/jquery.min.js"></script>
+  <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Bootrap Online -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -13,20 +32,45 @@
   <section id="title">
 
     <!-- Nav Bar -->
-
-
-
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">DogHub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ">Download</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Title -->
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
+    <div class="row">
+
+      <div class="col-lg-6">
+        <h1>Meet new and interesting dogs nearby.</h1>
       <button type="button">Download</button>
       <button type="button">Download</button>
+      </div>
+
+      <div class="col-lg-6">
+        <img src="dist/images/iphone6.png" alt="iphone-mockup">
+      </div>
+
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
+    
 
   </section>
 
@@ -52,7 +96,7 @@
   <section id="testimonials">
 
     <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on DogHub. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
+    <img src="dist/images/dog-img.jpg" alt="dog-profile">
     <em>Pebbles, New York</em>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with DogHub's help, they've found the love of their life. I think.</h2>
@@ -65,10 +109,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img src="dist/images/techcrunch.png" alt="tc-logo">
+    <img src="dist/images/tnw.png" alt="tnw-logo">
+    <img src="dist/images/bizinsider.png" alt="biz-insider-logo">
+    <img src="dist/images/mashable.png" alt="mashable-logo">
 
   </section>
 
@@ -126,10 +170,6 @@
     <p>© Copyright DogHub</p>
 
   </footer>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
 </body>
 
